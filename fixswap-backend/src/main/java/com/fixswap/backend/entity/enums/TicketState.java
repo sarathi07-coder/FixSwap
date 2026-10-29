@@ -1,0 +1,22 @@
+package com.fixswap.backend.entity.enums;
+
+public enum TicketState {
+    PENDING,
+    ACCEPTED,
+    TECH_DISPATCHED,
+    LOANER_COLLECTED_AT_HUB,
+    EN_ROUTE_TO_CUSTOMER,
+    ITEM_COLLECTED,
+    LOANER_GIVEN,
+    EN_ROUTE_TO_HUB_DROP,
+    REPAIRED_COLLECTED_AT_HUB,
+    DEVICE_SWAPPED,
+    IN_REPAIR,
+    REPAIR_DONE,
+    DROPPED_AT_HUB,
+    AWAITING_RETURN_PICKUP,
+    RETURNING,
+    COMPLETED,
+    DISPUTED,
+    CANCELLED
+}
